@@ -14,5 +14,16 @@ questions:
 - Search String: short Keywords representing e.g. search engine interactions "example of IPv4 address in CIDR notation"
 - Imperative Questions: Question formulated in imperative Form e.g. "Describe how to specify an IP address range using the IP-address and IP-mask fields."
 - Question: standard Question e.g. "What is the difference between specifying an IP address range using the CIDR notation and using the IP-address and IP-mask fields?"
-Better examples in German will be given, when the generation started.
+Examples:
+```
+Identifiziere Studien zur Bedeutung von Bildung für die persönliche Entwicklung
+Imperative Form:  "Suche nach Studien, die die Bedeutung von Bildung für die persönliche Entwicklung untersuchen."
+Question:  "Welche Studien gibt es zur Bedeutung von Bildung für die persönliche Entwicklung?"
+Search String:  "Studien Bedeutung Bildung persönliche Entwicklung"
+-----------------------------
+Berichte über innovative Ansätze in der Medizinforschung und -praxis
+Imperative Form:  "Finde Berichte über neue Ansätze in der Medizinforschung und -praxis."
+Question:  "Wo kann ich Berichte über innovative Ansätze in der Medizinforschung und -praxis finden?"
+Search String:  "Berichte innovative Ansätze Medizinforschung Praxis"
+```
 4. Generating the hard positive and hard negatie example: We have seen that variance here is also important! The generation will not just consist of the same structured text but will sample from predefined categories. 
